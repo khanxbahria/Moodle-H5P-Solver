@@ -5,7 +5,7 @@ Moodle H5P Solver solves the H5P interactions and obtains the full score without
 
 ## Installation
 1. [Download Tampermonkey](https://www.tampermonkey.net/)  
-2. [Install Moodle H5P Solver Userscript](README.md?raw=1)
+2. [Install Moodle H5P Solver Userscript](moodle_h5p_solver.user.js?raw=1)
 
 ## Usage
 1. Visit ```Course -> Section -> Grades```
