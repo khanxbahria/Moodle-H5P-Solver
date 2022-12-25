@@ -23,7 +23,7 @@
 
 	var vids = [];
 	for (var i = 2, row; row = table.rows[i]; i++) {
-		if (row.cells.length == 0) continue;
+		if (row.cells.length <= grade_col) continue;
 		if (row.cells[grade_col].getInnerHTML() != "-") continue;
 		if (row.cells[0].childNodes.length == 0 || row.cells[0].childNodes[0].href == undefined) continue;
 
